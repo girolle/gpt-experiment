@@ -1,0 +1,14 @@
+normalize.css is imported into index.css before other CSS files.
+The layout doesn't break between breakpoints:
+- Media queries are properly used so that the layout is maintained at all resolutions.
+- Displays with a width of 320px or more doesn’t have horizontal scrolling.
+- No text overflows its corresponding block boundary.
+The cumulative value of the width, padding, and margin properties for each element is specified to within 30px of the design requirements at the 1280px breakpoint. It should also be within 10px of the design requirements at the following breakpoints: 768px, 320px
+Stylesheets do not use tag selectors to set CSS rules.
+No more than two selectors are nested in any CSS rule.
+Stylesheets and images are located in separate folders and organized into blocks. Files are all organized within a Flat BEM file structure.
+Blocks are imported into the corresponding page file. CSS rules for elements and modifiers are declared in the corresponding CSS block file.
+Modifiers do not contain duplicate styles of the element or block being modified. They contain only the changing properties.
+There are no class attributes with a BEM modifier as their only value. For example, this is wrong: `<div class="block\_\_element\_mod-name\_mod-value">`. This is correct: <div class="block\_\_element block\_\_element\_mod-name\_mod-value">.
+Components that share similar styles or functions constitute a single BEM entity, i.e., a block or an element.
+An active popup box is created using a BEM modifier with the necessary CSS properties.

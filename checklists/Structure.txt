@@ -1,0 +1,12 @@
+The project contains:
+A blocks directory with BEM blocks stored in separate CSS files (Flat BEM)
+An images directory with all the images
+A pages directory with an index.css file stored inside it
+A scripts folder with index.js script file
+A vendor directory with normalize.css, fonts.css files and a fonts directory stored inside it
+The index.html file
+A README.md file
+A .prettierignore file
+A .gitignore file
+Stylesheets are connected in a separate file
+The script is moved to a separate file

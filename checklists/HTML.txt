@@ -1,0 +1,5 @@
+viewport is set correctly, title and lang are used.
+Headings are made using the appropriate tags (from `<h1>` to `<h6>`). Text blocks are made with `<p>` tags. The `<header>`, `<main>`, `<footer>`, `<section>`, `<ul>`, and `<li>` elements are present in the code and they are used for their intended purposes.
+`<b>`, `<br>`, and `<i>` elements are not used.
+Elements are not wrapped in `<div>` tags unless required for alignment purposes.
+The page has a first-level heading. The hierarchy of headings is consistent, and there are no headings missing.

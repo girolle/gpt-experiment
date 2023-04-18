@@ -1,0 +1,8 @@
+**All of the features listed in the brief have been implemented and are functioning properly:**
+6 cards have been created and rendered via JavaScript.
+The modal for editing the profile has been correctly coded in HTML and CSS. This includes making sure that the following features are implemented:
+It has a form with two fields titled "Name" and "About me", a "Save" and “Close” buttons.
+The popup box has the properties that are defined in the project description.
+The popup must be opened once the modal\_opened is added manually in the HTML. By default, the user shouldn't see the modal box.
+The popup must be closed when the modal\_opened is removed from HTML.
+The popups are created with HTML and CSS. They shouldn't be created dynamically with JS.
